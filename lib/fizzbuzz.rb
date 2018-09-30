@@ -5,5 +5,7 @@ def fizzbuzz(n)
     "fizz"
   elsif n % 5 == 0
     "buzz"
+  else
+    n.to_s
   end
 end
