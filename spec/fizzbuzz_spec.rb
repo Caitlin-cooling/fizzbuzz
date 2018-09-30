@@ -10,4 +10,7 @@ end
 it "return 'fizzbuzz' when passed 3 end 5" do
   expect(fizzbuzz(15)).to eq 'fizzbuzz'
 end
+it "return 'number' when passed number not divisibule by 3 and 5" do
+  expect(fizzbuzz(4)).to eq '4'
+end
 end
